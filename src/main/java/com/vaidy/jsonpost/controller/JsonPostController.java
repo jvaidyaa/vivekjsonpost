@@ -25,7 +25,10 @@ public class JsonPostController {
     produces= MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody()
 	public ResponseEntity<EventResponse> eventPost(@RequestBody DTOEvent event) {
+		System.out.println("Bhaktha's first program ");
+		System.out.println("----------------------------------------------------------------");
 		System.out.println(event.toString());
+		System.out.println("----------------------------------------------------------------");
 		return null;
 
 	}
