@@ -1,3 +1,7 @@
+Prerequisites.
+
+You will need maven to compile the project and post man to run the test case
+
 1. clone this project on the command line as follows
 
 git clone git@github.com:jvaidyaa/vivekjsonpost.git
